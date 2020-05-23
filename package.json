@@ -1,0 +1,43 @@
+{
+  "name": "rmind",
+  "homepage": "https://liu-hongyang.github.io/mindmap",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "emotion": "^10.0.9",
+    "highlight.js": "^9.15.10",
+    "html2canvas": "^1.0.0-rc.1",
+    "marked": "^0.7.0",
+    "md5": "^2.2.1",
+    "normalize.css": "^8.0.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-scripts": "^3.4.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
+  }
+}
